@@ -8,3 +8,25 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.local
+*.key
+*_key.txt
+
+# API keys (DO NOT COMMIT)
+*API_KEY*
+*api_key*
+
+# Test outputs (generated during runs)
+paper_to_review.json
+reviewed_paper.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
